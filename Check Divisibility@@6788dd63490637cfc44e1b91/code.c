@@ -1,6 +1,4 @@
-Here is a C program to check if a given number is divisible by both 5 and 11:
 
-```c
 #include <stdio.h>
 
 int main() {
