@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    float weight;
-    scanf("%f",&weight);
-    printf("weight is: ",weight)
+    float num;
+    scanf("%f",&num);
+    printf("num is: ",num);
  
     return 0;
 }
