@@ -1,16 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, j;
-    char ch;
+    int N;
+    scanf("%d", &N);
 
-    scanf("%d", &n);
-
-    for (i = 1; i <= n; i++) {
-        ch = 'A';
-        for (j = 1; j <= i; j++) {
-            printf("%c", ch);
-            ch++;
+    for (int i = 1; i <= N; i++) {
+        for (char ch = 'A'; ch < 'A' + i; ch++) {
+            printf("%c ", ch);
         }
         printf("\n");
     }
