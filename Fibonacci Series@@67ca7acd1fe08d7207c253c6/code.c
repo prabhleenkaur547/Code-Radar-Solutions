@@ -1,9 +1,5 @@
 #include <stdio.h>
 #include<math.h>
-void fibonacciSeries(int n);
-
-
-
   int fibonacci(int n){
     int a=2,b=4,c;
     if ( n==0 ) return a;
